@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#nav-top{
+    background-color: #524A6D;
+    color: white;
+    align-content: center;
+    height:110px;
+}
+
+#header {
+    background-color: #FAFAFA;
+    position: absolute;
+    top: 0px;
+    height: 7vh;
+    width: 75%;
+    align-items: center;
+    align-content: center;
+    margin-left: 25%;
+    display:flex;
+    color: #383E54;
+    font-weight: bold;
+}
+
+
+/* .header_div {
+
+} */
+
+#acerca_de:hover {
+    background-color: #2E293D;
+    color: white;
+    border-radius: 4%;
+}
+
+/* #report:hover {
+    background-color: #383E54;
+    color: white;
+    border-radius: 4%;
+} */
+
+#logo_eclac {
+    height: inherit;
+    margin-left: 0rem;
+    float: left;
+}
+
+#alcaldia_bogota {
+    height: inherit;
+    margin-left: 0.5rem;
+    float: left;
+}
+
+#title {
+    line-height: 35px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: 5%;
+    width: 48%;
+    margin: auto;
+    float: left;
+}
+
+#country {
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+
+#report {
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+
+#acerca_de {
+    padding: 9px;
+    align-items: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+#report {
+    padding: 9px;
+    align-items: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+#description{
+    position: absolute;
+    display: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 50rem;
+    padding: 1rem 1rem;
+    min-height: 15rem;
+    background-color: white;
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    align-items: center;
+    color: #524A6D;
+    overflow: auto
+}
+
+#toc {
+    background-color: #524A6D;
+    position: absolute;
+    top: 0vh;
+    bottom: 0;
+    width: 25vw;
+    overflow: auto
+}
+
+.header-category {
+    margin-top: 10px;
+    height: 2.8rem;
+    background-color: #524A6D;
+    cursor: pointer;
+    align-items: center;
+    color: #FAFAFA;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+.header-category:hover {
+    background-color: #2E293D;
+}
+
+.body-category {
+    margin: 3px 0px;
+    background-color: #524A6D;
+}
+
+.layer_body {
+    margin: 0px;
+    width: 100%;
+    font-size: small;
+    padding: 0rem 1rem;
+    min-height: 2rem;
+    background-color: white;
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    align-items: center;
+}
+
+.layer_header {
+    margin: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+.layer_legend {
+    margin: 0px;
+    padding: 1rem;
+}
+
+/* .counter { 
+    background-color: whitesmoke;
+    color: #292B3A;
+    font-weight: bold;
+    border-radius: 10%;
+} */
+
+input.form-check-input {
+    align-items: center;
+    width : 1.3rem;
+    height : 1.3rem;
+    border-color:#524A6D;
+}
